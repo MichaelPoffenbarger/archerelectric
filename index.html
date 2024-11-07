@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Electrical Contracting Co. - Springtown, TX</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Goldman:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        @media (max-width: 768px) {
+            /* Add your CSS for small screens here */
+            .img-fluid {
+                width: 60%;
+                height: auto;
+            }
+        }
+
+        :root {
+            --archer-green: #6B7B5F;
+            --archer-dark: #1E1E1E;
+            --archer-light: #F5F5F5;
+        }
+        body {
+            background-color: var(--archer-dark);
+            color: var(--archer-light);
+            font-family: 'Arial', sans-serif;
+        }
+        h2 {
+            font-family: 'Goldman', sans-serif;
+            font-size: 3rem;
+        }
+        h3 {
+            font-family: 'Goldman', sans-serif;
+            font-size: 2.4rem;
+        }
+        .navbar {
+            background-color: rgba(30, 30, 30, 0.95) !important;
+        }
+        .navbar-brand, .nav-link {
+            color: var(--archer-light) !important;
+        }
+        .nav-link:hover {
+            color: var(--archer-green) !important;
+        }
+        header {
+            background-image: url('./img/lights.jpg') !important;
+            background-size: cover;
+            background-position: center;
+            padding-top: 200px;
+        }
+        .img-fluid1 {
+            width: 100%;
+            height: auto;
+            
+        }
+        .btn-archer {
+            background-color: var(--archer-green);
+            color: white;
+        }
+        .btn-archer:hover {
+            background-color: #556347;
+            color: white;
+        }
+        .section-title {
+            color: var(--archer-green);
+            font-family: 'Goldman', sans-serif;
+        }
+        .svg-bg {
+            position: absolute;
+            z-index: -1;
+            opacity: 0.1;
+        }
+        #lightbulb-svg {
+            top: 190%;
+            right: 25%;
+            width: 100px;
+            height: 100px;
+        }
+        #plug-svg {
+            top: 260%;
+            left: 15%;
+            width: 80px;
+            height: 80px;
+        }
+       
+        .contact-form input,
+        .contact-form textarea {
+            background-color: transparent;
+            border: 1px solid rgb(255, 255, 255);
+            color: var(--archer-light);
+            padding: 12px;
+            margin-bottom: 20px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-form input:focus,
+        .contact-form textarea:focus {
+            background-color: rgba(255, 255, 255, 0.05);
+            border-color: var(--archer-green);
+            color: var(--archer-light);
+            box-shadow: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-form input::placeholder,
+        .contact-form textarea::placeholder {
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+        }
+        .btn-send {
+            background-color: var(--archer-green);
+            color: white;
+            width: 100%;
+            padding: 12px;
+            border: none;
+            transition: background-color 0.3s ease;
+            font-family: 'Poppins', sans-serif;
+        }
+        .btn-send:hover {
+            background-color: #556347;
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        .hours-list {
+            list-style: none;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+        .hours-list li {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-info a {
+            color: var(--archer-green);
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-info a:hover {
+            color: #556347;
+            font-family: 'Poppins', sans-serif;
+        }
+        .privacy-notice {
+            font-size: 0.8rem;
+            color: rgba(255, 255, 255, 0.5);
+            font-family: 'Poppins', sans-serif;
+        }
+        .update-notice {
+            color: rgba(255, 255, 255, 0.5);
+            font-size: 0.9rem;
+            font-style: italic;
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="https://img1.wsimg.com/isteam/ip/efbe2f68-f3bb-4c33-84fa-f5065758a11c/blob-7a560d0.png/:/rs=w:219,h:200,cg:true,m/cr=w:219,h:200/qt=q:95" class="img-fluid" style="width: 100px; height: 100px;"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="d-flex align-items-start" style="min-height: auto;">
+        <div class="container py-5">
+            <div class="row">
+                
+                <div class="col-12 col-lg-6 mb-3 text-center" style="background-color: rgba(0, 0, 0, 0.473); backdrop-filter: blur(10px);">
+                    <img src="https://img1.wsimg.com/isteam/ip/efbe2f68-f3bb-4c33-84fa-f5065758a11c/blob-7a560d0.png/:/rs=w:219,h:200,cg:true,m/cr=w:219,h:200/qt=q:95" class="img-fluid1" style="max-width: 80%; height: auto; padding-top: 20px;">
+                    <h2 class="section-title" style="text-shadow: 1px 1px 2px #fff;">Drop us a line!</h2>
+                    <form class="contact-form" id="contactForm">
+                        
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="name" placeholder="Name" required>
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" id="email" placeholder="Email*" required>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-send">SEND</button>
+                        <p class="privacy-notice mt-3">
+                            This site is protected by reCAPTCHA and the Google 
+                            <a href="https://policies.google.com/privacy" target="_blank">Privacy Policy</a> and 
+                            <a href="https://policies.google.com/terms" target="_blank">Terms of Service</a> apply.
+                        </p>
+                        
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6 mb-3" style="background-color: rgba(0, 0, 0, 0.473); backdrop-filter: blur(10px);">
+                    <div class="ps-lg-4">
+                        <h2 class="section-title" style="text-shadow: 1px 1px 2px #fff;">Need an estimate?</h2>
+                        <p class="text-light" style="font-family: 'Poppins', sans-serif;">How long will it take to receive an estimate? <strong>Currently less than 24 hours.</strong></p>
+                        
+    
+                        <div class="contact-info mt-5">
+                            <h3 class="section-title" style="text-shadow: 1px 1px 2px #fff;">Archer Electrical Contracting Co.</h3>
+                            <p class="text-light" style="font-family: 'Poppins', sans-serif;">420 Jay Bird Lane, Springtown, Texas 76082, United States</p>
+                            
+                            <p>
+                                <a href="mailto:info@Archer-E.com" style="color: var(--archer-light);">info@Archer-E.com</a><br>
+                                <a href="tel:940-399-7862" style="color: var(--archer-light);">940-399-7862</a>
+                            </p>
+    
+                            <h3 class="mt-4 section-title" style="font-family: 'Goldman', sans-serif; text-shadow: 1px 1px 2px #fff;">Hours</h3>
+                            <ul class="hours-list">
+                                <li><span>Mon</span> <span>07:00 am – 04:00 pm</span></li>
+                                <li><span>Tue</span> <span>07:00 am – 04:00 pm</span></li>
+                                <li><span>Wed</span> <span>07:00 am – 04:00 pm</span></li>
+                                <li><span>Thu</span> <span>07:00 am – 04:00 pm</span></li>
+                                <li><span>Fri</span> <span>07:00 am – 04:00 pm</span></li>
+                                <li><span>Sat</span> <span>Closed</span></li>
+                                <li><span>Sun</span> <span>Closed</span></li>
+                            </ul>
+                            <p class="mt-3">Closed on Major Holidays</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="services" class="py-5">
+            <div class="container">
+                <h2 class="text-center section-title mb-5" style="text-shadow: 1px 1px 2px #fff;">Our Services</h2>
+                <div class="row align-items-center mb-5">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <img src="https://imgs.search.brave.com/8ICGgyqrpPG1P9afe9PHnQ_eaRtWj7KjkArUIAFRnWc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvMjAw/NTU5OTM4LTAwMS9w/aG90by9wbHVnLXNv/Y2tldC13aXRoLWdy/ZWVuLXBvd2VyLWNh/YmxlLW9uLXdhbGwt/Y2xvc2UtdXAuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPW9j/bHNjQUhJNkMxV1U2/RFptMy1ubEdvN095/VS16MXlPQ0lPZENh/WXpISTQ9" alt="Residential Services" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title" style="text-shadow: 1px 1px 2px #fff;">Residential Services</h3>
+                        <p>We offer comprehensive electrical solutions for your home, from minor repairs to complete rewiring projects. Our experienced technicians ensure your home's electrical systems are safe, efficient, and up to code.</p>
+                        <ul class="residential-services-list col-lg-6">
+                            <li>Minor Repairs</li>
+                            <li>Complete Rewiring Projects</li>
+                            <li>Electrical Panel Upgrades</li>
+                            <li>Lighting Installations</li>
+                            <li>Outlet and Switch Installations</li>
+                            <li>Home Electrical Inspections</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+                <div class="row align-items-center mb-5 flex-md-row-reverse">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <img src="img/clothingstorelighting.jpg" alt="Commercial Services" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title" style="text-shadow: 1px 1px 2px #fff;">Commercial Services</h3>
+                        <p>Our team specializes in electrical installations and maintenance for businesses of all sizes. From office buildings to retail spaces, we provide reliable and efficient electrical solutions to keep your business running smoothly.</p>
+                        <ul class="commercial-services-list">
+                            <li>Electrical Panel Upgrades</li>
+                            <li>Lighting Installations and Retrofits</li>
+                            <li>Power Distribution and Circuit Installation</li>
+                            <li>Electrical System Maintenance and Repair</li>
+                            <li>Energy Efficiency Upgrades</li>
+                            <li>Commercial Electrical Inspections</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0">
+                        <img src="https://imgs.search.brave.com/ek4kd_aGhBOGYUmLvSVfLq5mfDF7C4OI5RBHx34iNbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA5LzgwLzczLzIz/LzM2MF9GXzk4MDcz/MjM5OF9KRkRpdEZz/UExtWlJSTHFPa0FK/UnFMRG5lWHlhRGFo/Ry5qcGc" alt="Emergency Services" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-md-6">
+                        <h3 class="section-title" style="text-shadow: 1px 1px 2px #fff;">Emergency Services</h3>
+                        <p>Electrical emergencies don't wait for business hours. That's why we offer 24/7 emergency electrical services. Our rapid response team is always ready to handle any urgent electrical issues to ensure your safety and peace of mind.</p>
+                        <ul class="emergency-services-list">
+                            <li>24/7 Emergency Electrical Services</li>
+                            <li>Rapid Response Team</li>
+                            <li>Urgent Electrical Issue Handling</li>
+                            <li>Safety and Peace of Mind</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="py-5 bg-dark">
+            <div class="container">
+                <h2 class="text-center section-title mb-5" style="text-shadow: 1px 1px 2px #fff;">About Archer Electrical</h2>
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-4 mb-md-0" style="background-image: url('https://img1.wsimg.com/isteam/ip/efbe2f68-f3bb-4c33-84fa-f5065758a11c/blob-7a560d0.png/:/rs=w:219,h:200,cg:true,m/cr=w:219,h:200/qt=q:95'); background-size: cover; background-position: center; height: 500px; width: 500px;">
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <p class="mb-4" style="font-family: 'Poppins', sans-serif;">Archer Electrical Contracting Co. has been serving the Springtown, Fort Worth, and Dallas areas for over two decades. Our team of licensed electricians is committed to providing top-notch electrical services with a focus on safety, quality, and customer satisfaction.</p>
+                        <p class="mb-4" style="font-family: 'Poppins', sans-serif;">We pride ourselves on staying up-to-date with the latest electrical technologies and industry standards, ensuring that every project we undertake is completed to the highest specifications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="py-5">
+            <div class="container">
+                <h2 class="text-center section-title mb-5" style="text-shadow: 1px 1px 2px #fff;">Frequently Asked Questions</h2>
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <h3 class="h5 section-title">Do you offer free estimates?</h3>
+                        <p>Yes, we provide free estimates for all of our electrical services. Contact us to schedule an appointment.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h3 class="h5 section-title">Are your electricians licensed and insured?</h3>
+                        <p>Absolutely. All of our electricians are fully licensed, bonded, and insured for your peace of mind.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h3 class="h5 section-title">How quickly can you respond to emergencies?</h3>
+                        <p>We offer 24/7 emergency services and aim to respond to all urgent calls within 1 hour.</p>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <h3 class="h5 section-title">Do you work on both old and new buildings?</h3>
+                        <p>Yes, we have experience working with electrical systems in both older homes and new constructions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p class="mb-2">Archer Electrical Contracting Co. | Springtown, Texas</p>
+            <p class="mb-2">Phone: (555) 123-4567 | Email: info@archer-e.com</p>
+            <p>&copy; 2024 Archer Electrical Contracting Co. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- SVG Background Elements -->
+    <svg class="svg-bg" id="lightbulb-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="9.5" y1="18" x2="15" y2="18"></line>
+        <line x1="10.5" y1="22" x2="14" y2="22"></line>
+        <path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0018 8c0-1-.26-1.9-.78-2.71-.14-.22-.29-.45-.45-.66C15.73 3.55 14.39 3 13 3c-1.39 0-2.73.55-3.77 1.63-.16.21-.31.44-.45.66C8.26 6.1 8 7 8 8a4.65 4.65 0 001.5 3.5c.76.76 1.23 1.52 1.41 2.5"></path>
+    </svg>
+
+    <svg class="svg-bg" id="plug-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 2v5"></path>
+        <path d="M5 5.5v7.5a4 4 0 004 4h6a4 4 0 004-4v-7.5"></path>
+        <path d="M16 22v-5"></path>
+        <path d="M8 22v-5"></path>
+    </svg>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Smooth scrolling
+            $('a.nav-link').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top - 70
+                    }, 800);
+                }
+            });
+
+            // Close mobile menu on item click
+            $('.navbar-nav>li>a').on('click', function(){
+                $('.navbar-collapse').collapse('hide');
+            });
+        });
+    </script>
+</body>
+</html>
